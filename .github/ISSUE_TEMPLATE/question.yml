@@ -1,0 +1,20 @@
+name: 🙋 Question
+description: Ask anything about Inceptron.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        No question is too basic. If something is unclear to you, it's probably unclear to others too.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Anything that helps us understand what you're trying to do.
