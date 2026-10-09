@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="t">
+  <title id="t">Inceptron logo</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090D22"/>
+      <stop offset="0.55" stop-color="#130E31"/>
+      <stop offset="1" stop-color="#1F0C36"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D9D3FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.45"/>
+      <stop offset="0.6" stop-color="#8B5CF6" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1.1" fill="#FFFFFF" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <style>
+    .frame { animation: pulse 4.8s ease-in-out infinite; }
+    .f1 { animation-delay: 0s; }
+    .f2 { animation-delay: 0.3s; }
+    .f3 { animation-delay: 0.6s; }
+    .f4 { animation-delay: 0.9s; }
+    .qed { animation: qed 4.8s ease-in-out infinite; animation-delay: 1.2s; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 40% { opacity: 0.35; } }
+    @keyframes qed { 0%, 100% { opacity: 1; transform: scale(1); } 40% { opacity: 0.7; transform: scale(0.86); } }
+    @media (prefers-reduced-motion: reduce) { .frame, .qed { animation: none; } }
+  </style>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="250" fill="url(#glow)"/>
+  <g>
+    <g fill="none" stroke="url(#accent)" stroke-linejoin="round">
+      <rect x="106.00" y="106.00" width="300.00" height="300.00" rx="36.00" transform="rotate(0 256.00 256.00)" stroke-width="10.20" class="frame f1"/>
+      <rect x="134.50" y="134.50" width="243.00" height="243.00" rx="29.16" transform="rotate(12 256.00 256.00)" stroke-width="9.60" class="frame f2"/>
+      <rect x="157.75" y="157.75" width="196.50" height="196.50" rx="23.58" transform="rotate(24 256.00 256.00)" stroke-width="9.00" class="frame f3"/>
+      <rect x="176.50" y="176.50" width="159.00" height="159.00" rx="19.08" transform="rotate(36 256.00 256.00)" stroke-width="8.40" class="frame f4"/>
+    </g>
+    <g class="qed"><rect x="218.50" y="218.50" width="75.00" height="75.00" rx="10.50" transform="rotate(48 256.00 256.00)" fill="url(#accent)"/></g>
+  </g>
+</svg>
