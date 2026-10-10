@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img alt="License: Apache 2.0" src="https://img.shields.io/badge/license-Apache_2.0-1F5ED9?style=flat-square&labelColor=080D25"></a>
-  <img alt="Status: early development" src="https://img.shields.io/badge/status-early_development-D50FB9?style=flat-square&labelColor=080D25">
-  <a href="CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-4FF7CC?style=flat-square&labelColor=080D25"></a>
-  <a href="CODE_OF_CONDUCT.md"><img alt="Contributor Covenant 2.1" src="https://img.shields.io/badge/Contributor_Covenant-2.1-DD1B57?style=flat-square&labelColor=080D25"></a>
+  <a href="LICENSE"><img alt="License: Apache 2.0" src="https://img.shields.io/badge/license-Apache_2.0-073FE3?style=flat-square&labelColor=422A16"></a>
+  <img alt="Status: early development" src="https://img.shields.io/badge/status-early_development-DA02AF?style=flat-square&labelColor=422A16">
+  <a href="CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-08837A?style=flat-square&labelColor=422A16"></a>
+  <a href="CODE_OF_CONDUCT.md"><img alt="Contributor Covenant 2.1" src="https://img.shields.io/badge/Contributor_Covenant-2.1-C30839?style=flat-square&labelColor=422A16"></a>
 </p>
 
 <p align="center">

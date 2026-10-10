@@ -1,51 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
   <defs>
-    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4FF7CC"/><stop offset="0.08" stop-color="#14E1D5"/><stop offset="0.17" stop-color="#03C8D7"/><stop offset="0.25" stop-color="#0CB0D4"/><stop offset="0.33" stop-color="#0B98CF"/><stop offset="0.42" stop-color="#007ED1"/><stop offset="0.5" stop-color="#1F5ED9"/><stop offset="0.58" stop-color="#7655F2"/><stop offset="0.67" stop-color="#B748F1"/><stop offset="0.75" stop-color="#F535D5"/><stop offset="0.83" stop-color="#F126A9"/><stop offset="0.92" stop-color="#E91D7E"/><stop offset="1" stop-color="#DD1B57"/></linearGradient>
-    <linearGradient id="pearl" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#F1F8FF"/><stop offset="1" stop-color="#BECBE2"/>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2FDAC4"/><stop offset="0.08" stop-color="#0DC3C5"/><stop offset="0.17" stop-color="#0CABC0"/><stop offset="0.25" stop-color="#0994BA"/><stop offset="0.33" stop-color="#0780B8"/><stop offset="0.42" stop-color="#006ABC"/><stop offset="0.5" stop-color="#073FE3"/><stop offset="0.58" stop-color="#6E2FEA"/><stop offset="0.67" stop-color="#A81FD7"/><stop offset="0.75" stop-color="#DA02AF"/><stop offset="0.83" stop-color="#D50485"/><stop offset="0.92" stop-color="#CE015E"/><stop offset="1" stop-color="#C30839"/></linearGradient>
+    <linearGradient id="ivory" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF8"/><stop offset="1" stop-color="#F0DFC4"/>
     </linearGradient>
     <radialGradient id="ruby-body" cx="0.34" cy="0.30" r="0.85">
-      <stop offset="0" stop-color="#FA9FB3"/><stop offset="0.28" stop-color="#DD1B57"/>
-      <stop offset="0.7" stop-color="#7F0322"/><stop offset="1" stop-color="#40030C"/>
+      <stop offset="0" stop-color="#FDB4BA"/><stop offset="0.25" stop-color="#ED3151"/>
+      <stop offset="0.55" stop-color="#C30839"/><stop offset="0.82" stop-color="#7A051D"/><stop offset="1" stop-color="#3A060A"/>
     </radialGradient>
     <linearGradient id="ruby-table" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FA9FB3" stop-opacity="0.75"/><stop offset="1" stop-color="#DD1B57" stop-opacity="0.15"/>
+      <stop offset="0" stop-color="#FDB4BA" stop-opacity="0.8"/><stop offset="1" stop-color="#C30839" stop-opacity="0.1"/>
     </linearGradient>
     <linearGradient id="sapphire-table" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#74B1FB"/><stop offset="0.5" stop-color="#2D71E2"/><stop offset="1" stop-color="#103EA7"/>
+      <stop offset="0" stop-color="#76B0FE"/><stop offset="0.5" stop-color="#1962F0"/><stop offset="1" stop-color="#0D2FB4"/>
     </linearGradient>
     <linearGradient id="spec-hl" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.85"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="soft" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur-s" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.42"/><stop offset="0.42" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.16"/>
+    </linearGradient>
+    <filter id="blur-xs" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="blur-s" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
     <filter id="blur-m" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
-    <filter id="blur-l" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="blur-l" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
-      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0.32 0 0 0 -0.12"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="11" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.16  0 0 0 0 0.10  0 0 0 0 0.05  0.55 0 0 0 -0.2"/>
     </filter>
-    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#080D25"/><stop offset="1" stop-color="#030615"/></linearGradient>
-    <radialGradient id="tile-glow" cx="0.5" cy="0.62" r="0.62"><stop offset="0" stop-color="#DD1B57" stop-opacity="0.38"/><stop offset="1" stop-color="#DD1B57" stop-opacity="0"/></radialGradient>
-    <linearGradient id="tile-border" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FA9FB3" stop-opacity="0.9"/><stop offset="0.5" stop-color="#DD1B57" stop-opacity="0.35"/><stop offset="1" stop-color="#7F0322" stop-opacity="0.8"/></linearGradient>
-    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FA9FB3"/><stop offset="0.55" stop-color="#DD1B57"/><stop offset="1" stop-color="#7F0322"/></linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#9B794F"/><stop offset="0.5" stop-color="#7F5B32"/><stop offset="1" stop-color="#664524"/></linearGradient>
+    <clipPath id="tile-clip"><rect x="4" y="4" width="88" height="88" rx="24"/></clipPath>
+    <linearGradient id="hairline" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#FEF6E7" stop-opacity="0.45"/><stop offset="1" stop-color="#29190C" stop-opacity="0.4"/></linearGradient>
   </defs>
-  <clipPath id="tile-clip"><rect x="4" y="4" width="88" height="88" rx="24"/></clipPath>
+  <rect x="5" y="8" width="86" height="86" rx="24" fill="#29190C" opacity="0.28" filter="url(#blur-xs)"/>
   <g clip-path="url(#tile-clip)">
-  <rect x="4" y="4" width="88" height="88" rx="24" fill="url(#tile)"/>
-  <rect x="4" y="4" width="88" height="88" rx="24" fill="url(#tile-glow)"/>
-  <rect x="24" y="26" width="48" height="5" rx="2.5" fill="#BECBE2" opacity="0.55"/><rect x="24" y="37" width="40" height="5" rx="2.5" fill="#BECBE2" opacity="0.45"/><rect x="24" y="48" width="44" height="5" rx="2.5" fill="#BECBE2" opacity="0.35"/><rect x="24" y="59" width="22" height="5" rx="2.5" fill="#BECBE2" opacity="0.3"/><clipPath id="icq-clip"><rect x="55" y="55" width="16" height="16" rx="2.56" /></clipPath>
-    <g>
-    <rect x="53" y="53" width="20" height="20" rx="4.8" fill="#DD1B57" opacity="0.55" filter="url(#blur-m)"/>
-    <rect x="55" y="55" width="16" height="16" rx="2.56" fill="url(#ruby-body)"/>
-    <g transform="rotate(0 63 63)" stroke="#FA9FB3" stroke-opacity="0.32" stroke-width="0.29"><line x1="58.52" y1="58.52" x2="55.56" y2="55.56"/><line x1="67.48" y1="58.52" x2="70.44" y2="55.56"/><line x1="67.48" y1="67.48" x2="70.44" y2="70.44"/><line x1="58.52" y1="67.48" x2="55.56" y2="70.44"/></g>
-    <rect x="58.52" y="58.52" width="8.96" height="8.96" rx="1.25" fill="url(#ruby-table)" stroke="#FA9FB3" stroke-opacity="0.45" stroke-width="0.22"/>
-    <g clip-path="url(#icq-clip)"><ellipse cx="59.8" cy="58.84" rx="5.44" ry="2.4" transform="rotate(-35 59.8 58.84)" fill="url(#spec-hl)" opacity="0.9"/></g>
-    <rect x="55" y="55" width="16" height="16" rx="2.56" fill="none" stroke="#FA9FB3" stroke-opacity="0.75" stroke-width="0.32"/>
-    </g>
+  <rect x="4" y="4" width="88" height="88" fill="url(#tile)"/>
+  <rect x="4" y="4" width="88" height="88" filter="url(#grain)" opacity="0.5"/>
+  <rect x="22" y="24" width="50" height="5" rx="2.5" fill="#FEF6E7" opacity="0.75"/><rect x="22" y="35" width="42" height="5" rx="2.5" fill="#FEF6E7" opacity="0.62"/><rect x="22" y="46" width="46" height="5" rx="2.5" fill="#FEF6E7" opacity="0.5"/><rect x="22" y="57" width="22" height="5" rx="2.5" fill="#FEF6E7" opacity="0.42"/><clipPath id="icq-clip"><rect x="55.5" y="53.5" width="17" height="17" rx="2.72" /></clipPath>
+    <g transform="translate(1.36 2.72)"><rect x="55.5" y="53.5" width="17" height="17" rx="3.4" fill="#29190C" opacity="0.5" filter="url(#blur-s)"/></g>
+    <g transform="translate(2.72 5.1)" style="mix-blend-mode:multiply"><rect x="55.5" y="53.5" width="17" height="17" rx="5.1" fill="#7A051D" opacity="0.45" filter="url(#blur-s)"/></g>
+    <rect x="55.5" y="53.5" width="17" height="17" rx="2.72" fill="url(#ruby-body)"/>
+    <g transform="rotate(0 64 62)" stroke="#FDB4BA" stroke-opacity="0.35" stroke-width="0.31"><line x1="59.24" y1="57.24" x2="56.09" y2="54.09"/><line x1="68.76" y1="57.24" x2="71.91" y2="54.09"/><line x1="68.76" y1="66.76" x2="71.91" y2="69.91"/><line x1="59.24" y1="66.76" x2="56.09" y2="69.91"/></g>
+    <rect x="59.24" y="57.24" width="9.52" height="9.52" rx="1.33" fill="url(#ruby-table)" stroke="#FDB4BA" stroke-opacity="0.5" stroke-width="0.24"/>
+    <g clip-path="url(#icq-clip)"><ellipse cx="60.6" cy="57.58" rx="6.12" ry="2.55" transform="rotate(-35 60.6 57.58)" fill="url(#spec-hl)"/></g>
+    <rect x="55.5" y="53.5" width="17" height="17" rx="2.72" fill="none" stroke="#FDB4BA" stroke-opacity="0.8" stroke-width="0.34"/>
   </g>
-  <path d="M26,5.2 H70" stroke="#FFFFFF" stroke-opacity="0.35" stroke-linecap="round"/>
-  <rect x="4.75" y="4.75" width="86.5" height="86.5" rx="23.25" fill="none" stroke="url(#tile-border)" stroke-width="1.5"/>
+  <rect x="4.75" y="4.75" width="86.5" height="86.5" rx="23.25" fill="none" stroke="url(#hairline)" stroke-width="1.5"/>
 </svg>
